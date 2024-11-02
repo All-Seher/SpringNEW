@@ -5,10 +5,15 @@
   <groupId>org.all_seher.spring</groupId>
   <artifactId>Spring</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>Spring</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>2.1.2</module>
+    <module>2.1.3</module>
+    <module>2.1.4</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
